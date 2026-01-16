@@ -6,9 +6,9 @@ def p64(value):
 
 # ========== 配置区 ==========
 
-# 1. 这里填你在 objdump 里找到的地址
+
 # 必须指向内存里的 0x72 (最好是 72 00 00 00)
-addr_of_114 = 0x4025d8  # <--- 请务必修改这里！
+addr_of_114 = 0x4025d8  # 
 
 # 2. 你的 gadget 地址
 gadget_addr = 0x4012e6  # ag1: mov -8(rbp), rax; mov rax, rdi; ret
